@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    background-color: rgb(172, 208, 200);
+
+    min-height: 100vh;
+    
+    border: 10px solid black;
+}
+.content{
+    
+    max-width: 900px;
+    margin-top: 5%;
+}
+
+.image-container,.bio-img{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+    margin-left: 20%;
+    
+}
+
+.top-content{
+    display: flex;
+   justify-content: space-between;
+}
